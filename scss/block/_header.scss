@@ -1,0 +1,180 @@
+.header {
+    margin-bottom: 35px;
+    &__wrapper {
+        display: flex;   
+        justify-content: space-between;
+    }
+    &__title {
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18.15px;
+        text-align: left;
+        letter-spacing: 0.4px;
+        color: #000;
+        max-width: 248px;
+        height: 36px;    
+        margin-top: 31px;    
+    }
+    &__rating {   
+        &-yandex {
+            margin-left: 120px;
+            margin-top: 10px;
+            margin-bottom: 3px;
+            max-width: 79px;
+            max-height: 29px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &-title {
+            margin-left: 2px;
+            margin-top: -3px;
+            font-family: Inter;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 29.05px;
+            text-align: left;
+            color: #FD0000;
+        }
+        &-star {
+            width: 30px;
+            height: 25px;
+        }       
+        &-appraisal {
+            font-family: Inter;
+            font-size: 23px;
+            font-weight: 400;
+            line-height: 29.05px;
+            text-align: left;
+            color: #000;
+            margin-right: 8px;
+            margin-top: -4px;
+        }
+        &-info {            
+            width: 199px;
+            height: 39.09px;
+            background-image: url('../../icons/yandex-rating.png');    
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;  
+            padding: 4px 18px 4px 11px;  
+            display: flex; 
+            margin-left: 81px;
+            box-sizing: border-box;
+            margin-bottom: 6px;
+        }
+        &-search {
+            font-family: Inter, sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14.52px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+        &-stars {
+            width: 12px;
+            height: 12px;
+            display: flex;
+            align-items: center;
+            margin-left: 4px;
+        }
+        &-feedback  {
+            font-family: Inter sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14.52px;
+            text-align: left;
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+            text-decoration-skip-ink: none;
+            color: #000;
+            margin-left: 127px;
+            margin-top: -14px;
+        }
+    }
+    &__messangers {
+        margin-left: 61px;
+        margin-top: 22px;
+        &-title {
+            position: relative;
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19.36px;
+            text-align: left;
+            color: #000;
+            margin-bottom: 2px;
+            &::after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                right: -12px;
+                width: 6px;
+                height: 6px;
+                border-radius: 100%;
+                background-color: #00E317;
+            }
+        }
+        &-links {
+            display: flex;
+            align-items: center;
+            max-width: 108px;
+        }
+        &-link {
+            width: 23px;
+            height: 23px; 
+            &:not(:first-child) {
+                margin-left: 10px;
+            }       
+            &:nth-child(2) {
+                width: 26px;
+                height: 26px;
+            }          
+        }
+    }
+    &__phone {
+        margin-left: 52px;
+        margin-top: 28px;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        &-img {
+            width: 20px;
+            height: 20xp;
+        }
+        &-number {
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19.36px;
+            text-align: left;           
+            color: #000;            
+        }
+    }
+    &__btn {
+        width: 170px;
+        height: 45px;
+        padding: 16.5px 30.5px;       
+        display: flex;        
+        align-items: center;    
+        justify-content: center;
+        gap: 10px;
+        border-radius: 7px;
+        border: 1px solid #000;
+        opacity: 0px;
+        color: #000;
+        margin-top: 30px;
+        margin-left: 19px;
+        font-family: Inter sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 19.36px;
+        text-align: left;
+        letter-spacing: 0.2px;
+        cursor: pointer;
+    }
+}

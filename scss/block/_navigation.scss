@@ -1,0 +1,30 @@
+.navigation {
+    &__list {
+        display: flex;
+        align-items: center;
+    }
+    &__item {       
+        &:nth-child(2) {
+            margin-left: 261px;
+        }
+        &:nth-child(3) {
+            margin-left: 76px;
+        }
+        &:nth-child(4) {
+            margin-left: 64px;
+        }
+    }
+    &__link {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+        text-align: left;
+        color: #000;
+        position: relative;       
+        &:first-child {
+            max-width: 145px;
+            max-height: 66px;
+        }
+    }
+}

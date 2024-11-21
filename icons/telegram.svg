@@ -1,3 +1,15 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M24.3764 11.1932L6.65732 18.1291C5.94427 18.4521 5.7031 19.099 6.48497 19.45L11.0307 20.9164L22.0216 14.0213C22.6217 13.5885 23.2361 13.7039 22.7074 14.1801L13.2677 22.856L12.9712 26.5276C13.2458 27.0945 13.7487 27.0972 14.0695 26.8154L16.6811 24.307L21.154 27.7068C22.1929 28.3311 22.7581 27.9283 22.9816 26.784L25.9154 12.6826C26.22 11.2742 25.7006 10.6536 24.3764 11.1932Z" fill="white"/>
+<svg width="32.000000" height="33.000000" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip11_99">
+			<rect id="file-icons:telegram" rx="0.000000" width="31.000000" height="31.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Rectangle 6" x="3.000000" y="5.000000" rx="4.000000" width="28.000000" height="28.000000" fill="#039BE6" fill-opacity="1.000000"/>
+	<rect id="file-icons:telegram" rx="0.000000" width="31.000000" height="31.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip11_99)">
+		<path id="Vector" d="M24.37 11.19L6.65 18.12C5.94 18.45 5.7 19.09 6.48 19.45L11.03 20.91L22.02 14.02C22.62 13.58 23.23 13.7 22.7 14.18L13.26 22.85L12.97 26.52C13.24 27.09 13.74 27.09 14.06 26.81L16.68 24.3L21.15 27.7C22.19 28.33 22.75 27.92 22.98 26.78L25.91 12.68C26.21 11.27 25.7 10.65 24.37 11.19Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
 </svg>
