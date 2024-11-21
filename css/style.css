@@ -36,14 +36,14 @@ img {
 
 @font-face {
   font-family: "Arial Regular";
-  src: url("../../fonts/ArialMT.eot");
-  src: url("../../fonts/ArialMT.eot?#iefix") format("embedded-opentype"), url("../../fonts/ArialMT.woff") format("woff"), url("../../fonts/ArialMT.ttf") format("truetype");
+  src: url("../fonts/ArialMT.eot");
+  src: url("../fonts/ArialMT.eot?#iefix") format("embedded-opentype"), url("../fonts/ArialMT.woff") format("woff"), url("../fonts/ArialMT.ttf") format("truetype");
   font-weight: 400;
 }
 @font-face {
   font-family: "Arial Bold";
-  src: url("../../fonts/Arial-BoldMT.eot");
-  src: url("../../fonts/Arial-BoldMT.eot?#iefix") format("embedded-opentype"), url("../../fonts/Arial-BoldMT.woff") format("woff"), url("../../fonts/Arial-BoldMT.ttf") format("truetype");
+  src: url("../fonts/Arial-BoldMT.eot");
+  src: url("../fonts/Arial-BoldMT.eot?#iefix") format("embedded-opentype"), url("../fonts/Arial-BoldMT.woff") format("woff"), url("../fonts/Arial-BoldMT.ttf") format("truetype");
   font-weight: 700;
 }
 .container {
@@ -647,7 +647,7 @@ img {
 .steps__right {
   width: 562px;
   height: 711px;
-  background-image: url("../../img/wooman-2.png");
+  background-image: url("../img/wooman-2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
