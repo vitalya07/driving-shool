@@ -552,10 +552,19 @@ img {
   margin-top: -100px;
 }
 
-.steps {
+.steps__box {
   background-color: #3C6BE4;
   border-radius: 40px;
   padding: 60px 27px 47px 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .steps__five {
   font-family: Onest, sans-serif;
@@ -579,7 +588,7 @@ img {
 }
 .steps__item {
   width: 213px;
-  height: 64px;
+  max-height: 64px;
   border-radius: 30px;
   background-color: #F7F7F7;
   display: -webkit-box;
@@ -591,6 +600,12 @@ img {
           align-items: center;
   padding: 9px 21px 18.36px 27px;
   margin-bottom: 11px;
+}
+.steps__item:nth-child(4) {
+  width: 259px;
+}
+.steps__item:nth-child(8) {
+  width: 375px;
 }
 .steps__item-img {
   width: 41px;
@@ -625,4 +640,62 @@ img {
   line-height: 20.7px;
   text-align: left;
   color: #FFFFFF;
+}
+.steps__descr-last {
+  margin-left: 30px;
+}
+.steps__right {
+  width: 562px;
+  height: 711px;
+  background-image: url("../../img/wooman-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 29px;
+  margin-top: 20px;
+  position: relative;
+}
+.steps__right-five {
+  position: absolute;
+  left: 50%;
+  bottom: 45px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  width: 504px;
+  height: 95px;
+  border-radius: 108px;
+  border: 14px solid #3C6BE4;
+  background-color: #fff;
+  padding: 10px 14px;
+}
+.steps__right-img {
+  width: 44.52px;
+  height: 36.64px;
+}
+.steps__right-title {
+  font-family: Arial;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 31.05px;
+  text-align: left;
+  color: #000;
+}
+.steps__right-arrow {
+  position: absolute;
+  left: -67px;
+  bottom: -17px;
+  width: 84.71px;
+  height: 34.28px;
+  -webkit-transform: rotate(14deg);
+          transform: rotate(14deg);
 }/*# sourceMappingURL=style.css.map */
