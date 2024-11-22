@@ -1,0 +1,48 @@
+.annex {
+    margin-bottom: 14px;
+    &__box {
+        border-radius: 40px;
+        background-color: #F7F7F7;
+        padding: 49px 43px 68px 21px;
+    }
+    &__title {
+        max-width: 851px;
+        min-height: 51px;
+        border-radius: 11px;
+        background-color: $redColor;
+        color: #fff;
+        padding: 0 10px 0 15px;
+        font-family: Onest, sans-serif;
+        font-size: 43px;
+        font-weight: 500;
+        line-height: 52.03px;
+        letter-spacing: -0.02em;
+        text-align: left; 
+    }
+    &__subtitle {
+        max-width: 1166px;
+        min-height: 139px;
+        font-family: Onest, sans-serif;
+        font-size: 43px;
+        font-weight: 500;
+        line-height: 52.03px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        color: $blackColor;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+    &__descr {
+        max-width: 435px;
+        font-family: Arial;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 24.15px;
+        text-align: left;       
+        color: #000;
+        margin-left: 15px;
+        &-blue {
+            color: $blueColor;
+        }
+    }
+}
