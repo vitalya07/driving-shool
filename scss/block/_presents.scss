@@ -1,0 +1,130 @@
+.presents {
+    margin-bottom: 85px;
+    &__wrapper {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        background-image: url('../img/bg-presents.jpeg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 29px;
+        padding: 44px 16px 30px 99px;
+    }
+    &__info {
+       max-width: 594px;
+        &-title {
+            font-family: Onest, sans-serif;
+            font-size: 36px;
+            font-weight: 500;           
+            text-align: left;  
+            width: 100%;  
+            color: $blackColor;
+            line-height: 40.64px;
+            letter-spacing: -0.02em;  
+            margin-bottom: 31px;          
+            &--blue {
+                background-color: $blueColor;
+                color: #fff;
+                padding: 0px 10px;
+                border-radius: 11px;
+            } 
+            &--red {
+                color: $redColor;
+            }
+        }
+        &-subtitle {
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 20.16px;
+            text-align: left;
+            color: #000;
+            margin-bottom: 32px;
+            &--red {
+                color: $redColor;
+            }
+        }
+        &-tutor {
+            margin-bottom: 45px;
+            
+        }
+        &-enrol {
+            margin-left: 168px;
+        }
+    }
+    &__medical {
+        width: 550px;
+        height: 370px;
+        position: relative;
+        &-img {
+            position: absolute;
+            top: -30px;
+            left: -10px;
+            width: 550px;
+            height: 355px;
+        }
+        &-gift {
+            width: 55px;
+            height: 55px;
+            position: absolute;
+            top: 35px;
+            left: 100px;;
+        }
+        &-information {
+            width: 281px;
+            height: 89px;           
+            border-radius: 22px;
+            background-color: #fff;
+            z-index: 20;
+            position: absolute;
+            left: 165px;
+            bottom: 10px;
+            display: flex;
+            align-items: start;
+            gap: 10px;
+            justify-content: center;
+            padding: 13px 11px 12px 13px;
+        }
+        &-icons {
+            width: 22px;
+            height: 22px;
+            border-radius: 100%;
+            background-color: $blueColor;
+            position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                top: 30%;
+                left: 50%;
+                transform: translate3d(-50%, -50%, 0);
+                width: 2px;
+                height: 2px;
+                background-color: #fff;
+                display: block;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                top: 35%;
+                left: 50%;
+                transform: translate3d(-50%, -50%, 0);
+                width: 2px;
+                height: 7px;
+                background-color: #fff;
+                display: block;
+                margin-top: 6px;
+            }           
+        }
+        &-text {
+            width: 225px;
+            height: 64px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 15.82px;
+            text-align: left;
+            color: $blackColor;
+        }
+    }
+}

@@ -552,6 +552,9 @@ img {
   margin-top: -100px;
 }
 
+.steps {
+  margin-bottom: 35px;
+}
 .steps__box {
   background-color: #3C6BE4;
   border-radius: 40px;
@@ -693,9 +696,153 @@ img {
 .steps__right-arrow {
   position: absolute;
   left: -67px;
-  bottom: -17px;
+  bottom: -9px;
   width: 84.71px;
   height: 34.28px;
-  -webkit-transform: rotate(14deg);
-          transform: rotate(14deg);
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
+}
+
+.presents {
+  margin-bottom: 85px;
+}
+.presents__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-image: url("../img/bg-presents.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 29px;
+  padding: 44px 16px 30px 99px;
+}
+.presents__info {
+  max-width: 594px;
+}
+.presents__info-title {
+  font-family: Onest, sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  text-align: left;
+  width: 100%;
+  color: #23232A;
+  line-height: 40.64px;
+  letter-spacing: -0.02em;
+  margin-bottom: 31px;
+}
+.presents__info-title--blue {
+  background-color: #3C6BE4;
+  color: #fff;
+  padding: 0px 10px;
+  border-radius: 11px;
+}
+.presents__info-title--red {
+  color: #FF4A4A;
+}
+.presents__info-subtitle {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20.16px;
+  text-align: left;
+  color: #000;
+  margin-bottom: 32px;
+}
+.presents__info-subtitle--red {
+  color: #FF4A4A;
+}
+.presents__info-tutor {
+  margin-bottom: 45px;
+}
+.presents__info-enrol {
+  margin-left: 168px;
+}
+.presents__medical {
+  width: 550px;
+  height: 370px;
+  position: relative;
+}
+.presents__medical-img {
+  position: absolute;
+  top: -30px;
+  left: -10px;
+  width: 550px;
+  height: 355px;
+}
+.presents__medical-gift {
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  top: 35px;
+  left: 100px;
+}
+.presents__medical-information {
+  width: 281px;
+  height: 89px;
+  border-radius: 22px;
+  background-color: #fff;
+  z-index: 20;
+  position: absolute;
+  left: 165px;
+  bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 13px 11px 12px 13px;
+}
+.presents__medical-icons {
+  width: 22px;
+  height: 22px;
+  border-radius: 100%;
+  background-color: #3C6BE4;
+  position: relative;
+}
+.presents__medical-icons::before {
+  content: "";
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+  width: 2px;
+  height: 2px;
+  background-color: #fff;
+  display: block;
+}
+.presents__medical-icons::after {
+  content: "";
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+  width: 2px;
+  height: 7px;
+  background-color: #fff;
+  display: block;
+  margin-top: 6px;
+}
+.presents__medical-text {
+  width: 225px;
+  height: 64px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15.82px;
+  text-align: left;
+  color: #23232A;
 }/*# sourceMappingURL=style.css.map */

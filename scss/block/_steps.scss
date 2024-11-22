@@ -1,4 +1,5 @@
-.steps {    
+.steps {   
+    margin-bottom: 35px; 
     &__box {
         background-color: $blueColor;  
         border-radius: 40px;
@@ -121,10 +122,10 @@
         &-arrow {
             position: absolute;
             left: -67px;
-            bottom: -17px;
+            bottom: -9px;    
             width: 84.71px;
             height: 34.28px; 
-            transform: rotate(14deg);     
+            transform: rotate(2deg);     
         }
     }
 }
